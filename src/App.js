@@ -11,13 +11,7 @@ function App() {
       <div>
         <Toaster
           position="top-right"
-          toastOptions={{
-            success: {
-              theme: {
-                primary: "#4aed88",
-              },
-            },
-          }}
+          toastOptions={{ success: { theme: { primary: "#4aed88" } } }}
         ></Toaster>
       </div>
       <BrowserRouter>

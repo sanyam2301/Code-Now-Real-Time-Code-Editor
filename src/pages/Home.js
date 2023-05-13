@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { v4 as uuidV4 } from "uuid";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-import Collapse from "../components/Collapse";
 const Home = () => {
   const navigate = useNavigate();
 
@@ -70,8 +69,10 @@ const Home = () => {
 
       <footer>
         <h4>
-          Built with technology <a href="">React</a>,<a href="">Express </a>,
-          <a href="">Socket.io</a> &nbsp; by &nbsp; Sanyam Jain
+          Built with technology <a href="https://reactjs.org/">React</a>,
+          <a href="https://expressjs.com/">Express </a>,
+          <a href="https://socket.io/">Socket.io</a> &nbsp; by &nbsp; Sanyam
+          Jain
         </h4>
       </footer>
     </div>
